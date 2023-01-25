@@ -1,0 +1,110 @@
+
+.formsdiv{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.forms{
+    background-color: rgba(0, 0, 0, 0.427);
+    padding: 5%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    /* box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.2); */
+}
+
+input{
+    font-size: 1.5rem;
+    background: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    color: white;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    font-weight: bolder;
+    width: 20%;
+    margin-top: 4%;
+    padding: 2%;
+    background-color:white ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: lightblue;
+}
+
+.label{
+    /* margin-top: 5%; */
+    font-size:1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: flex-start;
+}
+.addlabel{
+    font-size:1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: flex-start;
+    margin:1% 0
+}
+.testarea{
+    padding: 2%;
+    
+}
+.fromsinput{
+    padding: 2%;
+    margin: 1% 0 ;
+}
+
+
+
+.agedobdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.labeldiv{
+   width:45%;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.ageDobinput{
+    padding: 3%;
+}
+
+.ageDob{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divlabel{
+    align-self: flex-start;
+    margin: 1% 0;
+    font-size:1.4rem;
+}
+.divage{
+    align-self:flex-start ;
+    margin: 1% 0;
+    font-size:1.4rem;
+}

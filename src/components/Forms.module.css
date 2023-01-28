@@ -132,4 +132,7 @@ h1{
     .addlabel{
         font-size: 20px;
     }
+    input{
+        font-size: small;
+    }
 }
